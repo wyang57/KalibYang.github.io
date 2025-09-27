@@ -1,0 +1,7 @@
+Make sure it does not change the original index-manual.html, index-ai-revised.html, styles/hw1-styles.css and styles/hw1-styles-ai-revised.css.
+
+Make sure it does not use any external libraries or packages, such as JavaScript frameworks or CSS frameworks. (Only vanilla HTML and CSS are allowed.)
+
+    During my experience, for some reason copying relative path did not work so I had to copy the entire path for the majority of the code. I also had to rely on my notes for some portions like where to make image the background. I believe I succeeded with the visuals I wanted to convey. I tried making the sitemap the same but had some complications. I attempted to remake the background but that would've required a new styles so I ended up simply including the galaxy image as a normal visual in front and making the div box brighter. And the text light blue to match the galaxy color.
+
+    The ai did not surpass my expectations, the animation that was added in the "revised" was fairly simple. The "creative" remake which I told it to be creative actually oversimplified the entire web page which I consider way less creative than the thought I put into my website, but it makes sense to an extent.

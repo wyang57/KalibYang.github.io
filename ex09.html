@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Feedback Form</title>
+  <link rel="stylesheet" href="C:\Users\wyang5\OneDrive - Babson College\Desktop\This-is-a-repository-for-my-work-in-OIM3690-Web-Tech-class-in-2025\styles\styles09.css">
+</head>
+<body>
+  <div class="form-box">
+    <form action="https://www.babson.edu/" method="post">
+      <h2>Feedback Form</h2>
+
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone">
+
+      <label>Gender:</label>
+      <div class="radio-group">
+        <label><input type="radio" name="gender" value="male"> Male</label>
+        <label><input type="radio" name="gender" value="female"> Female</label>
+      </div>
+
+      <label for="cereal">Favorite Cereal:</label>
+      <select id="cereal" name="cereal">
+        <option value="lucky_charms">Lucky Charms</option>
+        <option value="capn_crunch">Cap'n Crunch</option>
+        <option value="rice_krispies">Rice Krispies</option>
+        <option value="krave">Krave</option>
+        <option value="other">Other</option>
+      </select>
+
+      <label for="comments">Comments:</label>
+      <textarea id="comments" name="comments" rows="5" placeholder="Write your feedback here..."></textarea>
+
+      <div class="icon-buttons">
+        <button type="submit" class="icon-btn">
+          <img src="C:\Users\wyang5\OneDrive - Babson College\Desktop\This-is-a-repository-for-my-work-in-OIM3690-Web-Tech-class-in-2025\Images\Upload.png" alt="Send"> Submit
+        </button>
+        <button type="sitemap" class="icon-btn">
+          <img src="C:\Users\wyang5\OneDrive - Babson College\Desktop\This-is-a-repository-for-my-work-in-OIM3690-Web-Tech-class-in-2025\Images\Sitemap.png" alt="Sitemap"> Sitemap
+        </button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
