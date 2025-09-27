@@ -1,0 +1,98 @@
+/* Floating animation for space theme */
+@keyframes floatInSpace {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+.content-box {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 2em;
+  margin: 2em auto;
+  border-radius: 10px;
+  max-width: 900px;
+  animation: floatInSpace 6s ease-in-out infinite;
+}
+
+/* Optional: floating headers */
+h1, h2, h3 {
+  animation: floatInSpace 8s ease-in-out infinite;
+}
+
+/* Optional: gentle pulse for paragraphs */
+@keyframes pulseGlow {
+  0% { opacity: 1; }
+  50% { opacity: 0.85; }
+  100% { opacity: 1; }
+}
+
+p {
+  animation: pulseGlow 5s ease-in-out infinite;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background-image: url('../images/SPACE.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #ffffff;
+}
+
+.content-box {
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 2.5em;
+  margin: 2em auto;
+  max-width: 900px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+header, footer {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1.5em;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.3em 0.6em;
+  border-radius: 4px;
+}
+
+nav a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+main img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 1em;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
+}
+
+a {
+  color: #aadfff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1, h2, h3 {
+  color: #ffffff;
+  margin-bottom: 0.5em;
+}

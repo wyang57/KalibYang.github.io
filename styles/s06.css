@@ -1,0 +1,35 @@
+ 
+      body {
+        background-color: #183059; 
+        margin: 0;
+        padding: 24px;
+      }
+      .bordered {
+        border: 3px solid #7da0fa;
+        border-radius: 10px;
+        padding: 16px;
+        background: #ffffffcc;
+        margin-bottom: 18px;
+      }
+      .quote-one {
+        background: #89cff0;
+      }
+      .quote-two {
+        background: #a259e6; 
+      }
+      .quote-three {
+        background: #337ab7;
+      }
+      .WC {
+        font-size: 1.5em;
+        font-weight: bold;
+      }
+      hr {
+        border: none;
+        border-top: 3px solid #7da0fa;
+        margin: 24px 0;
+      }
+      h1, h2, h3, p {
+        color: #fff;
+      }
+

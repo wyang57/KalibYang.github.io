@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('C:/Users/wyang5/OneDrive - Babson College/Desktop/This-is-a-repository-for-my-work-in-OIM3690-Web-Tech-class-in-2025/Images/SPACE.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+}
+
+.content-box {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 2em;
+  margin: 2em;
+  border-radius: 10px;
+}
+
+header, footer {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 1em;
+  border-radius: 8px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1, h2, h3 {
+  color: white;
+}
