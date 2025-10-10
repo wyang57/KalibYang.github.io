@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+  <meta name="description" content="Contact Kalib Yang" >
+  <link rel="stylesheet" href="styles/hw2-styles-contact.css" >
+  <link rel="icon" href="images/favicon.ico" >
+  <title>Contact | Kalib Yang</title>
+</head>
+<body>
+  <header>
+    <div class="logo">Contact Page</div>
+  </header>
+
+  <main>
+    <section class="contact-box">
+    <h2>Contact Info</h2> 
+
+
+    <form method="POST" action="https://oim.108122.xyz/form2">
+      <fieldset>
+
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required >
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required >
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <label for="country">Country:</label>
+          <input list="countries" id="country" name="country" >
+          <datalist id="countries">
+            <option value="United States">United States</option>
+            <option value="Canada">Canada</option>
+            <option value="Japan">Japan</option>
+
+          </datalist>
+
+          <label for="cereal">Favorite Cereal:</label>
+          <input type="text" id="cereal" name="cereal" >
+
+          <button type="submit">Submit</button>
+        </fieldset>
+      </form>
+
+      <div class="back-button">
+        <a href="PROJECTS.HTML">Back to Home</a>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>

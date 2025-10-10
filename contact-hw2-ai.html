@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Contact — Manta AI</title>
+  <link rel="stylesheet" href="styles/hw2-styles-ai.css">
+</head>
+<body>
+  <div class="vines-overlay" aria-hidden="true"></div>
+  <div class="leafs" aria-hidden="true">
+    <div class="leaf l2"></div>
+    <div class="leaf l3"></div>
+  </div>
+  <div class="canopy" aria-hidden="true"></div>
+  <div class="fireflies" aria-hidden="true">
+    <div class="firefly f1 xl"></div>
+    <div class="firefly f2 large"></div>
+    <div class="firefly f3 medium"></div>
+    <div class="firefly f4 large"></div>
+    <div class="firefly f5 medium"></div>
+    <div class="firefly f6 small"></div>
+    <div class="firefly f7 small"></div>
+    <div class="firefly f8 medium"></div>
+    <div class="firefly f9 small"></div>
+  </div>
+  <div class="vignette" aria-hidden="true"></div>
+  <div class="container">
+    <header class="heading-box">
+      <div class="logo" aria-hidden="true">M</div>
+      <svg aria-hidden="true" width="120" height="80" viewBox="0 0 200 80" style="margin-right:8px;opacity:0.09;transform:translateY(-6px)">
+        <path d="M2 60 C40 10, 160 10, 198 60" stroke="#204b1f" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.18">
+          <animate attributeName="d" dur="6s" repeatCount="indefinite" values="M2 60 C40 10, 160 10, 198 60; M2 62 C44 8, 156 12, 198 60; M2 60 C40 10, 160 10, 198 60" />
+        </path>
+      </svg>
+      <div>
+        <script src="scripts/hw2-parallax.js" defer></script>
+    </body>
+    </html>
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="index-hw2-ai.html">Home</a>
+          <a href="projects-hw2-ai.html">Projects</a>
+          <a href="contact-hw2-ai.html">Contact</a>
+          <button class="btn secondary" type="button" onclick="window.mantai && window.mantai.toggleTwilight()" aria-pressed="false" title="Toggle twilight mode">Twilight</button>
+        </nav>
+      </div>
+    </header>
+
+    <main class="centered">
+      <form action="#" method="post" novalidate aria-label="Contact form">
+        <div class="form-grid">
+          <label class="form-field">
+            <span class="input-hint">Full name</span>
+            <input id="name" type="text" name="name" placeholder="Your name" required aria-required="true">
+          </label>
+
+          <label class="form-field">
+            <span class="input-hint">Email</span>
+            <input id="email" type="email" name="email" placeholder="you@example.com" required aria-required="true">
+          </label>
+
+          <label class="form-field">
+            <span class="input-hint">Country</span>
+            <input id="country" list="countries" name="country" placeholder="Select or type" autocomplete="country">
+            <datalist id="countries">
+              <option value="United States">
+              <option value="Canada">
+              <option value="United Kingdom">
+              <option value="Australia">
+              <option value="India">
+              <option value="Germany">
+              <option value="Other">
+            </datalist>
+          </label>
+
+          <label class="form-field">
+            <span class="input-hint">Favorite cereal</span>
+            <select id="cereal" name="cereal">
+              <option value="">Choose one...</option>
+              <option>Honey Oats</option>
+              <option>Jungle Crunch</option>
+              <option>Granola Classic</option>
+              <option>Fruity Bites</option>
+            </select>
+          </label>
+
+          <label class="form-field">
+            <span class="input-hint">Message</span>
+            <textarea id="message" name="message" placeholder="Tell us about your idea or question" required aria-required="true"></textarea>
+          </label>
+        </div>
+
+        <div class="form-actions">
+          <button class="btn" type="submit">Send message</button>
+          <button class="btn secondary" type="reset">Reset</button>
+        </div>
+      </form>
+
+      <footer class="footer">Prefer email? <a href="mailto:hello@mantai.example" style="color:inherit;">hello@mantai.example</a></footer>
+    </main>
+  </div>
+</body>
+</html>"}}]}

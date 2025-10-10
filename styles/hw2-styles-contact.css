@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url("Images/Vines.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: rgb(46, 77, 44);
+}
+
+.logo {
+  background-color: rgb(46, 77, 44);
+  color: white;
+  text-align: center;
+  padding: 16px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.contact-box {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 32px;
+  margin: 48px auto;
+  max-width: 600px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.contact-box h1,
+.contact-box p {
+  margin-bottom: 16px;
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+label {
+  display: block;
+  margin-top: 16px;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  border: 1px solid rgb(107, 142, 35);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  margin-top: 24px;
+  padding: 10px 20px;
+  background-color: rgb(46, 77, 44);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.back-button {
+  margin-top: 32px;
+  text-align: center;
+}
+
+.back-button a {
+  color: rgb(46, 77, 44);
+  text-decoration: none;
+  font-weight: bold;
+}

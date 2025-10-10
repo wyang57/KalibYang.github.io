@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Manta AI — Home</title>
+  <link rel="stylesheet" href="styles/hw2-styles-ai.css">
+</head>
+<body>
+  <div class="vines-overlay" aria-hidden="true"></div>
+  <div class="leafs" aria-hidden="true">
+    <div class="leaf l1"></div>
+    <div class="leaf l2"></div>
+    <div class="leaf l3"></div>
+    <div class="leaf l4"></div>
+  </div>
+  <div class="canopy" aria-hidden="true"></div>
+  <div class="fireflies" aria-hidden="true">
+    <div class="firefly f1 xl"></div>
+    <div class="firefly f2 large"></div>
+    <div class="firefly f3 medium"></div>
+    <div class="firefly f4 large"></div>
+    <div class="firefly f5 medium"></div>
+    <div class="firefly f6 small"></div>
+    <div class="firefly f7 small"></div>
+    <div class="firefly f8 medium"></div>
+    <div class="firefly f9 small"></div>
+  </div>
+  <div class="vignette" aria-hidden="true"></div>
+  <div class="container" id="top">
+    <header class="heading-box">
+      <div class="logo" aria-hidden="true">M</div>
+      <svg aria-hidden="true" width="120" height="80" viewBox="0 0 200 80" style="margin-right:8px;opacity:0.09;transform:translateY(-6px)">
+        <path d="M2 60 C40 10, 160 10, 198 60" stroke="#204b1f" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.18">
+          <animate attributeName="d" dur="6s" repeatCount="indefinite" values="M2 60 C40 10, 160 10, 198 60; M2 62 C44 8, 156 12, 198 60; M2 60 C40 10, 160 10, 198 60" />
+        </path>
+      </svg>
+      <div>
+        <h1>Manta AI Lab</h1>
+        <p class="muted">Jungle of ideas — exploring interconnected AI projects</p>
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="index-hw2-ai.html">Home</a>
+          <a href="projects-hw2-ai.html">Projects</a>
+          <a href="contact-hw2-ai.html">Contact</a>
+          <button class="btn secondary" type="button" onclick="window.mantai && window.mantai.toggleTwilight()" aria-pressed="false" title="Toggle twilight mode">Twilight</button>
+        </nav>
+      </div>
+    </header>
+
+    <main class="centered">
+      <section class="intro">
+        <h2>Welcome to the Manta Jungle</h2>
+        <p>Ideas grow tangled and beautiful here. Explore our AI concepts and see how they weave together — transparent experiments, human-centered design, and playful engineering.</p>
+      </section>
+
+      <section class="cards" aria-label="Featured projects">
+        <article class="card" tabindex="0">
+          <div class="card-inner">
+            <div class="card-front">
+              <img src="Images/mantamind.jpg" alt="MantaMind concept art">
+              <h3>MantaMind</h3>
+              <p>A research-first assistant focused on creative idea synthesis and associative brainstorming.</p>
+            </div>
+            <div class="card-back" aria-hidden="true">
+              <div class="back-title">MantaMind</div>
+              <p>Idea clustering, topic expansion, and exportable thought maps. Designed to spark creativity.</p>
+              <div class="back-actions">
+                <a class="btn" href="projects-hw2-ai.html#mantamind">Details</a>
+                <a class="btn secondary" href="contact-hw2-ai.html">Collaborate</a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" tabindex="0">
+          <div class="card-inner">
+            <div class="card-front">
+              <img src="Images/mantasage.jpg" alt="MantaSage concept art">
+              <h3>MantaSage</h3>
+              <p>An explainable tutor agent that scaffolds learning with stepwise reasoning and friendly metaphors.</p>
+            </div>
+            <div class="card-back" aria-hidden="true">
+              <div class="back-title">MantaSage</div>
+              <p>Stepwise solutions, hint scaffolding, multi-modal examples, and student progress tracking.</p>
+              <div class="back-actions">
+                <a class="btn" href="projects-hw2-ai.html#mantasage">Details</a>
+                <a class="btn secondary" href="contact-hw2-ai.html">Join Beta</a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" tabindex="0">
+          <div class="card-inner">
+            <div class="card-front">
+              <img src="Images/mantajarvis.jpg" alt="MantaJarvis concept art">
+              <h3>MantaJarvis</h3>
+              <p>A productivity assistant that automates routine tasks while preserving user intent and privacy.</p>
+            </div>
+            <div class="card-back" aria-hidden="true">
+              <div class="back-title">MantaJarvis</div>
+              <p>Task templates, privacy-first automations, audit logs, and integrations (planned).</p>
+              <div class="back-actions">
+                <a class="btn" href="projects-hw2-ai.html#mantajarvis">Details</a>
+                <a class="btn secondary" href="contact-hw2-ai.html">Request Demo</a>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <footer class="footer">© 2025 Manta AI Lab — made with vines and curiosity</footer>
+    </main>
+  </div>
+    <script src="scripts/hw2-parallax.js" defer></script>
+</body>
+</html>

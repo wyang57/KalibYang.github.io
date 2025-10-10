@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Manta AI — Projects</title>
+  <link rel="stylesheet" href="styles/hw2-styles-ai.css">
+</head>
+<body>
+  <div class="vines-overlay" aria-hidden="true"></div>
+  <div class="leafs" aria-hidden="true">
+    <div class="leaf l1"></div>
+    <div class="leaf l2"></div>
+    <div class="leaf l3"></div>
+  </div>
+  <div class="canopy" aria-hidden="true"></div>
+  <div class="fireflies" aria-hidden="true">
+    <div class="firefly f1 xl"></div>
+    <div class="firefly f2 large"></div>
+    <div class="firefly f3 medium"></div>
+    <div class="firefly f4 large"></div>
+    <div class="firefly f5 medium"></div>
+    <div class="firefly f6 small"></div>
+    <div class="firefly f7 small"></div>
+    <div class="firefly f8 medium"></div>
+    <div class="firefly f9 small"></div>
+  </div>
+  <div class="vignette" aria-hidden="true"></div>
+  <div class="container">
+    <header class="heading-box">
+      <div class="logo" aria-hidden="true">M</div>
+      <svg aria-hidden="true" width="120" height="80" viewBox="0 0 200 80" style="margin-right:8px;opacity:0.09;transform:translateY(-6px)">
+        <path d="M2 60 C40 10, 160 10, 198 60" stroke="#204b1f" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.18">
+          <animate attributeName="d" dur="6s" repeatCount="indefinite" values="M2 60 C40 10, 160 10, 198 60; M2 62 C44 8, 156 12, 198 60; M2 60 C40 10, 160 10, 198 60" />
+        </path>
+      </svg>
+      <div>
+        <h1>Projects — Manta AI</h1>
+        <p class="muted">Three core concepts growing in parallel</p>
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="index-hw2-ai.html">Home</a>
+          <a href="projects-hw2-ai.html">Projects</a>
+          <a href="contact-hw2-ai.html">Contact</a>
+          <button class="btn secondary" type="button" onclick="window.mantai && window.mantai.toggleTwilight()" aria-pressed="false" title="Toggle twilight mode">Twilight</button>
+        </nav>
+      </div>
+    </header>
+
+    <main class="centered">
+      <section class="cards" aria-label="All projects">
+        <article id="mantamind" class="card" aria-labelledby="manta-title-1" tabindex="0">
+          <div class="card-inner">
+            <div class="card-front">
+              <img src="Images/mantamind.jpg" alt="Illustration for MantaMind">
+              <h3 id="manta-title-1">MantaMind</h3>
+              <p>MantaMind is a creative synthesis engine that helps you find connections between ideas, generate combinatory prompts, and visualize associative webs.</p>
+            </div>
+            <div class="card-back" aria-hidden="true">
+              <div class="back-title">MantaMind</div>
+              <p><strong>Features:</strong> idea clustering, topic expansion, seed-to-essay sketches, exportable thought maps.</p>
+            </div>
+          </div>
+        </article>
+
+        <article id="mantasage" class="card" aria-labelledby="manta-title-2" tabindex="0">
+          <div class="card-inner">
+            <div class="card-front">
+              <img src="Images/mantasage.jpg" alt="Illustration for MantaSage">
+              <h3 id="manta-title-2">MantaSage</h3>
+              <p>MantaSage focuses on explainability and pedagogy — it breaks problems into teachable steps, suggests analogies, and adapts to different learning styles.</p>
+            </div>
+            <div class="card-back" aria-hidden="true">
+              <div class="back-title">MantaSage</div>
+              <p><strong>Features:</strong> stepwise solutions, hint scaffolding, multi-modal examples, student progress tracking.</p>
+            </div>
+          </div>
+        </article>
+
+        <article id="mantajarvis" class="card" aria-labelledby="manta-title-3" tabindex="0">
+          <div class="card-inner">
+            <div class="card-front">
+              <img src="Images/mantajarvis.jpg" alt="Illustration for MantaJarvis">
+              <h3 id="manta-title-3">MantaJarvis</h3>
+              <p>MantaJarvis automates repetitive workflows while keeping user intent explicit. It focuses on safe automation and reversible edits.</p>
+            </div>
+            <div class="card-back" aria-hidden="true">
+              <div class="back-title">MantaJarvis</div>
+              <p><strong>Features:</strong> task templates, privacy-first automations, audit logs, integrations (planned).</p>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <footer class="footer">Back to <a href="index-hw2-ai.html" style="color:inherit;">home</a> • <a href="contact-hw2-ai.html" style="color:inherit;">contact</a></footer>
+    </main>
+  </div>
+    <script src="scripts/hw2-parallax.js" defer></script>
+</body>
+</html>
