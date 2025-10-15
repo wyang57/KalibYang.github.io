@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise 14</title>
+  </head>
+  <body>
+    <h1>Manipulating Images using JavaScript</h1>
+    <div>
+      <img src="C:\Users\wyang5\OneDrive - Babson College\Desktop\KalibYang.github.io\Images\tiger1.jpg" id="tigerImage" alt="Tiger Image" width="300" />
+    </div>
+
+    <script>
+      const myImg = document.getElementById("tigerImage");
+
+      function enlargeImage() {
+        let w = myImg.width;
+        w = w + 100;
+        if (w > 1000) w = 300;
+        myImg.width = w;
+      }
+
+      myImg.addEventListener("mouseover", function () {
+        enlargeImage();
+      });
+    </script>
+  </body>
+</html>
